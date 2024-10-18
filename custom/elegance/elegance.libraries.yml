@@ -1,0 +1,7 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap: { type: external }
+  js:
+    js/script.js: {}

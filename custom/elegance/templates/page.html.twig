@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ language.getId }}">
+<head>
+  <head-placeholder token="{{ placeholder_token }}">
+    <meta charset="utf-8">
+    {{ attach_library('elegance/global-styling') }}
+  </head-placeholder>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      {{ page.header }}
+      <div class="hamburger">☰</div>
+      <nav class="navigation-menu">
+        {{ page.navigation }}
+      </nav>
+    </div>
+  </header>
+  {{ page.hero }}
+  <main class="main-content">
+    <div class="container">
+      {{ page.content }}
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      {{ page.footer }}
+    </div>
+  </footer>
+</body>
+</html>

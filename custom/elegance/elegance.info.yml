@@ -1,0 +1,14 @@
+name: 'Elegance'
+type: theme
+description: 'A modern, minimalist theme inspired by Apple’s design philosophy.'
+package: Custom
+core_version_requirement: ^10 || ^11
+base theme: classy
+libraries:
+  - elegance/global-styling
+regions:
+  header: Header
+  navigation: Navigation
+  content: Content
+  sidebar: Sidebar
+  footer: Footer
